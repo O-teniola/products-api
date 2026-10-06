@@ -13,4 +13,4 @@ public class ProductController {
     public Product getById(@PathVariable Long id ) {
         return new Product(id, "laptop", 999.99);
     }
-}//end class
+}
